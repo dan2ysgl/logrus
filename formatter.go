@@ -5,7 +5,7 @@ import "time"
 // Default key names for the default fields
 const (
 	defaultTimestampFormat = time.RFC3339
-	FieldKeyMsg            = "msg"
+	FieldKeyMsg            = "message"
 	FieldKeyLevel          = "level"
 	FieldKeyTime           = "time"
 	FieldKeyLogrusError    = "logrus_error"
