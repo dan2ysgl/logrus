@@ -6,11 +6,11 @@ import "time"
 const (
 	defaultTimestampFormat = time.RFC3339
 	FieldKeyMsg            = "message"
-	FieldKeyLevel          = "level"
-	FieldKeyTime           = "time"
+	FieldKeyLevel          = "levelname"
+	FieldKeyTime           = "asctime"
 	FieldKeyLogrusError    = "logrus_error"
-	FieldKeyFunc           = "func"
-	FieldKeyFile           = "file"
+	FieldKeyFunc           = "funcName"
+	FieldKeyFile           = "filename"
 )
 
 // The Formatter interface is used to implement a custom Formatter. It takes an
